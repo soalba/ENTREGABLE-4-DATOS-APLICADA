@@ -261,3 +261,11 @@ El barrio es, de lejos, la variable más importante (≈47% de la importancia
 agregada del modelo), seguido por superficie, baños y amenities premium
 (pileta, seguridad). Esto se puede ver en vivo en el módulo **Panel de
 mercado** de la aplicación.
+
+---
+
+## 10. Visualizacion de la aplicacion
+cd backend
+pip install -r requirements.txt
+python manage.py runserver
+Después abrís http://localhost:8000 y ya está todo funcionando (la DB ya viene cargada con las 76.202 propiedades).
